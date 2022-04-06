@@ -1,2 +1,2 @@
-# ignore dependencies
-venv
+.venv/
+__pycache__
