@@ -6,3 +6,6 @@
 
 ### GitHUb Actions badge:
 ![linter-check](https://github.com/Polyrom/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)
+
+### asciinema of brain-even
+[![asciicast](https://asciinema.org/a/bNRifYrdjFjS5eKU8zkbSk2nk.svg)](https://asciinema.org/a/bNRifYrdjFjS5eKU8zkbSk2nk)
