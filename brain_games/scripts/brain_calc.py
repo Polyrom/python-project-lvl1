@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from games.engine import run_game
+from .games.engine import run_game
 
 
 def main():

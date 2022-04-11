@@ -8,4 +8,7 @@
 ![linter-check](https://github.com/Polyrom/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)
 
 ### asciinema of brain-even
-[![asciicast](https://asciinema.org/a/bNRifYrdjFjS5eKU8zkbSk2nk.svg)](https://asciinema.org/a/bNRifYrdjFjS5eKU8zkbSk2nk)
+[![asciicast](https://asciinema.org/a/i6pO2NWKiY7uUvSktPQRaivkU.svg)](https://asciinema.org/a/i6pO2NWKiY7uUvSktPQRaivkU)
+
+### asciinema of brain-calc
+[![asciicast](https://asciinema.org/a/V4yaOK7Pz7NBPdCP66WkJS6ou.svg)](https://asciinema.org/a/V4yaOK7Pz7NBPdCP66WkJS6ou)
