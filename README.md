@@ -12,3 +12,6 @@
 
 ### asciinema of brain-calc
 [![asciicast](https://asciinema.org/a/V4yaOK7Pz7NBPdCP66WkJS6ou.svg)](https://asciinema.org/a/V4yaOK7Pz7NBPdCP66WkJS6ou)
+
+### asciinema of brain-gcd
+[![asciicast](https://asciinema.org/a/9IMvmUurs41QuEQ12KQeG6VAc.svg)](https://asciinema.org/a/9IMvmUurs41QuEQ12KQeG6VAc)
