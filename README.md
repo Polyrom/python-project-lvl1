@@ -8,10 +8,10 @@
 ![linter-check](https://github.com/Polyrom/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)
 
 ### asciinema of brain-even
-[![asciicast](https://asciinema.org/a/i6pO2NWKiY7uUvSktPQRaivkU.svg)](https://asciinema.org/a/i6pO2NWKiY7uUvSktPQRaivkU)
+[![asciicast](https://asciinema.org/a/uzByxPLHO4m0HjD478S1AwfOa.svg)](https://asciinema.org/a/uzByxPLHO4m0HjD478S1AwfOa)
 
 ### asciinema of brain-calc
-[![asciicast](https://asciinema.org/a/V4yaOK7Pz7NBPdCP66WkJS6ou.svg)](https://asciinema.org/a/V4yaOK7Pz7NBPdCP66WkJS6ou)
+[![asciicast](https://asciinema.org/a/LpQCkwTORHfZgMmjq6RfEGTvx.svg)](https://asciinema.org/a/LpQCkwTORHfZgMmjq6RfEGTvx)
 
 ### asciinema of brain-gcd
-[![asciicast](https://asciinema.org/a/9IMvmUurs41QuEQ12KQeG6VAc.svg)](https://asciinema.org/a/9IMvmUurs41QuEQ12KQeG6VAc)
+[![asciicast](https://asciinema.org/a/WSCAAJHjqWBXg3EdZBXR0gkWH.svg)](https://asciinema.org/a/WSCAAJHjqWBXg3EdZBXR0gkWH)
