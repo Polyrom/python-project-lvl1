@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
-from .games.engine import run_game
+from .games.gcd_game import run_brain_gcd
 
 
 def main():
-    run_game("gcd")
+    run_brain_gcd()
 
 
 if __name__ == "__main__":
