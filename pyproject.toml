@@ -1,11 +1,12 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "5 simple console-run games"
 authors = ["Roman Poliakov"]
 packages = [
     {include = "brain_games" },
 ]
+repository = [https://github.com/Polyrom/python-project-lvl1]
 
 [tool.poetry.dependencies]
 python = "^3.10"

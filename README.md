@@ -1,3 +1,6 @@
+### Hexlet Python Project 1
+### A simple set of five console-run games
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Polyrom/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Polyrom/python-project-lvl1/actions)
 
