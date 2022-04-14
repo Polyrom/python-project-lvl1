@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "5 simple console-run games"
 authors = ["Roman Poliakov"]
 packages = [
-    {include = "brain_games" },
+    {include = "brain_games" }
 ]
 repository = "https://github.com/Polyrom/python-project-lvl1"
 
