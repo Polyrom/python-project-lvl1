@@ -6,7 +6,7 @@ authors = ["Roman Poliakov"]
 packages = [
     {include = "brain_games" },
 ]
-repository = [https://github.com/Polyrom/python-project-lvl1]
+repository = "https://github.com/Polyrom/python-project-lvl1"
 
 [tool.poetry.dependencies]
 python = "^3.10"
