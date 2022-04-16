@@ -9,7 +9,6 @@ packages = [
 repository = "https://github.com/Polyrom/python-project-lvl1"
 
 [tool.poetry.dependencies]
-python = "^3.10"
 prompt = "^0.4.1"
 
 [tool.poetry.scripts]
