@@ -1,11 +1,5 @@
 import prompt
-from random import randint
-from math import gcd
-from .even import is_even
-from .gcd import sample_numbers
-from .calc import generate_expression
-from .prime import is_prime
-from .progression import get_progression
+from .games import even, gcd, calc, prime, progression
 
 
 def explain_how_to_answer(game):
@@ -23,50 +17,33 @@ def explain_how_to_answer(game):
 
 def show_question(game):
     if game == 'even':
-        global number
-        number = randint(1, 99)
-        print(f'Question: {number}')
+        even.ask_question()
     elif game == 'gcd':
-        global number_1, number_2
-        number_1, number_2 = randint(1, 99), randint(1, 99)
-        numbers = sample_numbers(number_1, number_2)
-        print('Question: ' + numbers)
+        gcd.ask_question()
     elif game == 'calc':
-        global expression
-        expression = generate_expression()
-        print('Question: ' + expression)
+        calc.ask_question()
     elif game == 'prime':
-        global num
-        num = randint(1, 100)
-        print(f'Question: {num}')
+        prime.ask_question()
     elif game == 'progression':
-        seq_start = randint(1, 5)
-        step = randint(2, 5)
-        num_of_steps = 8
-        progression_list = get_progression(seq_start, num_of_steps, step)
-        secret_number = randint(0, 8)
-        global cor_ans
-        cor_ans = str(progression_list[secret_number])
-        progression_list[secret_number] = '..'
-        question_string = ' '.join(str(e) for e in progression_list)
-        print(f'Question: {question_string}')
+        progression.ask_question()
 
 
 def get_correct_answer(game):
     if game == 'even':
-        correct_answer = is_even(number)
+        correct_answer = even.get_correct_answer()
         return correct_answer
     elif game == 'gcd':
-        correct_answer = str(gcd(number_1, number_2))
+        correct_answer = gcd.get_correct_answer()
         return correct_answer
     elif game == 'calc':
-        correct_answer = str(eval(expression))
+        correct_answer = calc.get_correct_answer()
         return correct_answer
     elif game == 'prime':
-        correct_answer = is_prime(num)
+        correct_answer = prime.get_correct_answer()
         return correct_answer
     elif game == 'progression':
-        return cor_ans
+        correct_answer = progression.get_correct_answer()
+        return correct_answer
 
 
 def run_game(game):

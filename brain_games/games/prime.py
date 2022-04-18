@@ -1,4 +1,5 @@
 from math import sqrt
+from random import randint
 
 
 def is_prime(number):
@@ -15,3 +16,14 @@ def is_prime(number):
             else:
                 i += 1
         return 'yes'
+
+
+def ask_question():
+    global num
+    num = randint(1, 100)
+    print(f'Question: {num}')
+
+
+def get_correct_answer():
+    correct_answer = is_prime(num)
+    return correct_answer
