@@ -1,6 +1,5 @@
 .venv/
-pycache
-.dist/
+dist/
 __pycache__
 .DS_Store
 .vscode/
