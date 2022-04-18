@@ -1,11 +1,11 @@
 import prompt
 from random import randint
 from math import gcd
-from .even_game import is_even
-from .gcd_game import sample_numbers
-from .calc_game import generate_expression
-from .prime_game import is_prime
-from .progression_game import get_progression
+from .even import is_even
+from .gcd import sample_numbers
+from .calc import generate_expression
+from .prime import is_prime
+from .progression import get_progression
 
 
 def explain_how_to_answer(game):
