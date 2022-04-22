@@ -1,16 +1,14 @@
 from random import randint
 
 
+game_rules = 'Answer "yes" if the number is even, otherwise answer "no".'
+
+
 def is_even(num):
-    return 'yes' if num % 2 == 0 else 'no'
+    return num % 2 == 0
 
 
-def ask_question():
-    global number
-    number = randint(1, 99)
-    print(f'Question: {number}')
-
-
-def get_correct_answer():
-    correct_answer = is_even(number)
-    return correct_answer
+def ask_question_get_answer():
+    question = randint(1, 99)
+    correct_answer = 'yes' if is_even(question) else 'no'
+    return question, correct_answer
