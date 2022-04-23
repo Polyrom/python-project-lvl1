@@ -1,7 +1,7 @@
 from math import sqrt
 from random import randint
 
-game_rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+GAME_RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
@@ -11,16 +11,13 @@ def is_prime(number):
     # using trial division method to define whether the number is prime
     else:
         number_sqrt = int(sqrt(number))
-        i = 2
-        while i <= (number_sqrt + 1):
-            if number % i == 0:
+        for divisor in range(2, number_sqrt):
+            if number % divisor == 0:
                 return False
-            else:
-                i += 1
         return True
 
 
-def ask_question_get_answer():
+def get_question_and_answer():
     question = randint(1, 100)
     correct_answer = 'yes' if is_prime(question) else 'no'
     return question, correct_answer

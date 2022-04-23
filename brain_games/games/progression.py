@@ -1,7 +1,7 @@
 from random import randint
 
 
-game_rules = 'What number is missing in the progression?'
+GAME_RULES = 'What number is missing in the progression?'
 
 
 def get_progression(start, total_steps, difference):
@@ -14,7 +14,7 @@ def get_progression(start, total_steps, difference):
     return progression
 
 
-def ask_question_get_answer():
+def get_question_and_answer():
     seq_start = randint(1, 5)
     step = randint(2, 5)
     num_of_steps = 8
