@@ -11,7 +11,7 @@ def is_prime(number):
     # using trial division method to define whether the number is prime
     else:
         number_sqrt = int(sqrt(number))
-        for divisor in range(2, number_sqrt):
+        for divisor in range(2, number_sqrt + 1):
             if number % divisor == 0:
                 return False
         return True
