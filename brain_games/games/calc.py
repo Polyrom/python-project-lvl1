@@ -13,5 +13,5 @@ def get_question_and_answer():
     num2 = random.randint(1, 25)
     operators_choice = random.choice(list(operators.keys()))
     question = '{} {} {}'.format(num1, operators_choice, num2)
-    correct_answer = operators.get(operators_choice)(num1, num2)
+    correct_answer = str(operators.get(operators_choice)(num1, num2))
     return question, correct_answer
