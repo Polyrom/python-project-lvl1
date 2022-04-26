@@ -5,18 +5,15 @@ GAME_RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
-    # prime numbers not included in the loop
+    # casting off prime number not included in the loop
     if number == 1:
         return False
-    elif number == 2 or number == 3 or number == 5 or number == 7:
-        return True
     # using trial division method to define whether the number is prime
-    else:
-        number_sqrt = int(sqrt(number))
-        for divisor in range(2, number_sqrt + 1):
-            if number % divisor == 0:
-                return False
-        return True
+    number_sqrt = int(sqrt(number))
+    for divisor in range(2, number_sqrt + 1):
+        if number % divisor == 0:
+            return False
+    return True
 
 
 def get_question_and_answer():

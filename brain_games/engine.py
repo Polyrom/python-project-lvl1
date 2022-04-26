@@ -4,7 +4,7 @@ import prompt
 NUMBER_OF_ROUNDS = 3
 
 
-def run_game(game):
+def run(game):
     print('Welcome to the Brain Games!')
     player = prompt.string('May I have your name? ')
     print(f'Hello, {player}')
@@ -15,9 +15,10 @@ def run_game(game):
         answer = prompt.string('Your answer: ')
         if answer == correct_answer:
             print('Correct!')
-        else:
-            return print(
-                f'"{answer}" is wrong answer ;(. '
-                f'The correct answer was "{correct_answer}".'
-                f'\nLet\'s try again, {player}!')
-    print("Congratulations, " + player + "!")
+            break
+    else:
+        print(
+            f'"{answer}" is wrong answer ;(. '
+            f'The correct answer was "{correct_answer}".'
+            f'\nLet\'s try again, {player}!')
+    print(f"Congratulations, {player}!")
