@@ -5,10 +5,8 @@ GAME_RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
-    # casting off prime number not included in the loop
     if number == 1:
         return False
-    # using trial division method to define whether the number is prime
     number_sqrt = int(sqrt(number))
     for divisor in range(2, number_sqrt + 1):
         if number % divisor == 0:
