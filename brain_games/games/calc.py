@@ -13,5 +13,6 @@ def get_question_and_answer():
     num2 = random.randint(1, 25)
     operations_choice = random.choice(list(operations.keys()))
     question = f'{num1} {operations_choice} {num2}'
-    correct_answer = str(operations.get(operations_choice)(num1, num2))
+    random_func = operations.get(operations_choice)
+    correct_answer = str(random_func(num1, num2))
     return question, correct_answer
