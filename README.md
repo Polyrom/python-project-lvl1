@@ -1,6 +1,13 @@
+[![Actions Status](https://github.com/Polyrom/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Polyrom/python-project-lvl1/actions) [![Maintainability](https://api.codeclimate.com/v1/badges/6af27a1af567a141a2df/maintainability)](https://codeclimate.com/github/Polyrom/python-project-lvl1/maintainability) [![linter-check](https://github.com/Polyrom/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)](https://github.com/Polyrom/python-project-lvl1/actions/workflows/linter-check.yml)
+
 ## Welcome to the Brain Games!
-#### Here is your simple set of 5 tiny console-run arithmetic games, my first study project from Hexlet. 
-#### Fun for the whole family! Perfect for ages 2 to 102!
+#### A simple set of 5 tiny console-run arithmetic games, my first study project from Hexlet. 
+#### Fun for the whole family! Perfect for ages 2 to 100!
+
+#### To start out, just type the following command in your command line while in the game directory:
+```make package-install```
+
+#### Now you are ready to go!
 #### You can play the following games:
 - [x] Odd or Even?
 - [x] Calc It Now!
@@ -22,11 +29,3 @@
 
 ### This is how you play *Prime or Composite?*
 [![asciicast](https://asciinema.org/a/5ShTTL1U7SFruWR8YEgrYuxHb.svg)](https://asciinema.org/a/5ShTTL1U7SFruWR8YEgrYuxHb)
-
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/Polyrom/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Polyrom/python-project-lvl1/actions)
-
-### Code Climate badge:
-[![Maintainability](https://api.codeclimate.com/v1/badges/6af27a1af567a141a2df/maintainability)](https://codeclimate.com/github/Polyrom/python-project-lvl1/maintainability)
-### GitHUb Actions badge:
-[![linter-check](https://github.com/Polyrom/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)](https://github.com/Polyrom/python-project-lvl1/actions/workflows/linter-check.yml)
